@@ -112,7 +112,30 @@ erDiagram
     }
 ```
 
-## 4. 🤝 Contributing
+## 4. 🐳 How to Use Docker (optional)
+
+for easier deployment and development. i have containerized This project using Docker. The setup includes containers for the client (React app), server (Express API), and optionally a database (e.g., MongoDB).
+
+### 4.1 🛠️ Prerequisites:
+- Docker
+- Docker Compose
+
+### 4.2 🚀 Running the App:
+- Clone the Repository:
+```bash
+git clone https://github.com/raidboukherouba/portfolio.git
+cd your-portfolio
+```
+- Build and Start Containers:
+```bash
+docker-compose up --build
+```
+
+- Access the App:
+* Frontend: http://localhost:3000
+* Backend API: http://localhost:5000
+
+## 5. 🤝 Contributing
 
 While this is a personal portfolio, I welcome suggestions and feedback:
 
@@ -123,14 +146,12 @@ While this is a personal portfolio, I welcome suggestions and feedback:
 5. Push to the branch (`git push origin feature/your-feature-name`)
 6. Open a pull request
 
-## 5. 📜 License
+## 6. 📜 License
 
 This portfolio is developed and maintained by *Boukherouba Raid*. The content is proprietary but the underlying code (when available) is licensed under MIT License, See the [LICENSE](./LICENSE) file for details.
 
-## 6. 📧 Contact
+## 7. 📧 Contact
 
 For professional inquiries or collaboration opportunities:
 - ✉️ **Email**: raidboukherouba@gmail.com
-- 💼 **LinkedIn**: Your LinkedIn Profile
 - 🐙 **GitHub**: raidboukherouba
-- 🌐 **Portfolio**: Your Portfolio URL
