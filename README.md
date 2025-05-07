@@ -1,4 +1,4 @@
-# 🚀 Raid Boukherouba - Full Stack Developer Portfolio
+# 🚀 Personal Portfolio built with React, Express.js, and MongoDB
 
 ## 1. 📄 Abstract
 
