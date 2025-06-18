@@ -6,6 +6,9 @@ const certificationSchema = new mongoose.Schema({
   date: { type: Date, required: true },
   description: String,
   credentialUrl: String // optional URL to the actual certificate
-}, { timestamps: true });
+}, { 
+  timestamps: true,
+  collection: 'certifications'
+ });
 
 module.exports = mongoose.model('Certification', certificationSchema);
