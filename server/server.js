@@ -4,7 +4,7 @@ require('dotenv').config();
 
 // in dev replace mongodb://127.0.0.1:27017/portfolioDB
 // MongoDB Connection
-mongoose.connect(process.env.MONGO_URI || 'mongodb://mongo:27017/portfolioDB')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://dbPortfolio:dbPortfolio@raidboukherouba.e828e.mongodb.net/?retryWrites=true&w=majority&appName=raidboukherouba')
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB error:', err));
 
