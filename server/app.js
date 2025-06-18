@@ -8,7 +8,7 @@ const authRoutes = require('./routes/auth');
 // Middlewares
 app.use(express.json());
 app.use(cors({
-  origin: '*', // ✅ allow only your frontend origin: 'http://localhost:3000',
+  origin: 'https://raidboukherouba.netlify.app', // ✅ allow only your frontend origin: 'http://localhost:3000',
   credentials: true // ✅ allow cookies/auth headers
 }));
 
