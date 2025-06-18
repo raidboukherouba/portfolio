@@ -3,7 +3,6 @@ const Certification = require('../models/Certification');
 exports.getAllCertifications = async (req, res) => {
   const certifications = await Certification.find().sort({ date: -1 });
   res.json(certifications);
-  console.log(certifications)
 };
 
 exports.getCertificationById = async (req, res) => {
