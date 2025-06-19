@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://portfolio-blrr.onrender.com/api', // fallback if env not set
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://portfolio-cew3.onrender.com/api', // fallback if env not set
   withCredentials: true, // Needed for cookies (JWT refresh tokens)
   headers: {
     'Content-Type': 'application/json'
